@@ -1,0 +1,121 @@
+@charset "utf-8";
+/*CSS reset*/
+ html{_text-overflow:ellipsis; height:100%;}
+html,body{color:#333;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
+table{border-collapse:collapse;border-spacing:0;}
+th{text-align:inherit;}
+fieldset,img{border:0;}
+iframe{display:block;}
+abbr,acronym{border:0;font-variant:normal;}
+del{text-decoration:line-through;}
+address,caption,cite,code,dfn,em,th,var,i,b{font-style:normal;font-weight:500;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6,b{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sup{top:-0.5em;}sub{bottom:-0.25em;}
+img,input,select{vertical-align:middle;display:inline-block;}
+embed,object,a,button,input,select,textarea{outline:none;}
+html,body{_height:100%;min-height:100%;}
+body,button,input,select,textarea{font:"Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB",\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;}
+
+input,select,textarea{font-size:100%;}
+input,textarea,a{outline: none;font-family:'Microsoft YaHei UI','Microsoft YaHei',"微软雅黑","宋体",Arial,Helvetica,sans-serif,SimSun,'Segoe UI',Tahoma,Helvetica,Sans-Serif; }
+table,table tr td{ border-collapse:collapse; border-spacing:0;}
+input, select, label {vertical-align: middle;font-family:'Microsoft YaHei UI','Microsoft YaHei',"微软雅黑","宋体",Arial,Helvetica,sans-serif,SimSun,'Segoe UI',Tahoma,Helvetica,Sans-Serif; outline:none;}
+input[type="button"]{ cursor:pointer;}
+fieldset,img{border:0;}
+img{vertical-align:top;}
+img:hover{opacity: 0.85!important; }
+ins,a{text-decoration:none;}
+a{outline:none;color:#333;}
+input::-moz-focus-inner{border:0;}/*火狐虚线框*/
+a:hover{text-decoration:underline;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.nav_banner img{opacity: 1!important;}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    box-shadow:0 0 0 60px #fff inset;
+    -webkit-text-fill-color: #333;
+}
+
+
+::-webkit-input-placeholder{color:#ccc;font-size:14px;}
+::-moz-placeholder{color:#ccc;font-size:14px;}/* firefox 19+ */
+:-ms-input-placeholder{color:#ccc;font-size:14px;}/* ie */
+input:-moz-placeholder{color:#ccc;font-size:14px;}
+.bgf5{ background-color:#f5f5f5;}
+
+.clearfix:after {clear: both;content: "";display: block;font-size: 0;height: 0;visibility: hidden;}
+* html .clearfix{ zoom:1;}
+*+ html .clearfix{ min-height:1px;}
+
+.none{display: none;}
+.show{display: block;}
+
+/*Width & Height*/
+.w{ width:100%;}
+.h{ height:100%;}
+
+
+/*other*/
+.cp{ cursor:pointer;}
+.oyu{overflow-y:auto; overflow-x: hidden;}
+
+/*Location*/
+.tl{ text-align:left;}
+.tc{ text-align:center;}
+.tr{ text-align:right;}
+.bc{margin-left:0; margin-right:0;}
+.fl{ float:left; display:inline;}
+.fr{ float:right; display:inline;}
+.cb{ clear:both;}
+.cl{ clear:left;}
+.cr{ clear:right;}
+.clearfix:after{content: "."; display: block; height: 0; line-height:0; clear: both; visibility: hidden;}
+.clearfix{ /*display:inline-block; clear:both;*/}
+*html .clearfix{ height:1%;}
+*html .clearfix{ display:block;}
+.vm{ vertical-align:middle;}
+.vt{ vertical-align:top;}
+.pr{ position:relative;}
+.pa{ position:absolute;}
+.zoom{ zoom:1;}
+.hidden{ visibility:hidden;}
+.none{ display:none;}
+.db{ display:block;}
+.inb{ display:inline-block;}
+.inb{ *display:inline; _display:inline}
+
+/*强制换行不换行*/
+.nowrap{ white-space:nowrap;}
+.ell{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+@font-face{font-family:'iconfont';src:url(http://mm.bst.126.net/css/fonts/iconfont.eot?ba4cbc537134cf2e9e25b87b062e7d31);src:url(http://mm.bst.126.net/css/fonts/iconfont.eot?#iefix) format('embedded-opentype'), 
+  url(http://mm.bst.126.net/css/fonts/iconfont.woff?7ce3848113b54e420473577e49728471) format('woff'), 
+  url(http://mm.bst.126.net/css/fonts/iconfont.ttf?342c9a165f0fbca7ffedc4fd6316319b) format('truetype'), 
+  url(http://mm.bst.126.net/css/fonts/iconfont.svg?c27d58c0efd7fcf019fdbbeb69fe0c59) format('svg');
+
+}
+  
+.iconfont{  font-family: "iconfont" !important;font-size:16px;color:#999;}
+
+     @font-face {font-family: "iconfont";
+          src: url('../font/iconfont.eot'); /* IE9*/
+          src: url('../font/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../font/iconfont.woff') format('woff'), /* chrome, firefox */
+          url('../font/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+          url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+        }
+     
+        .iconfont {
+          font-family:"iconfont" !important;
+          font-size:0.24rem;
+          font-style:normal;
+          -webkit-font-smoothing: antialiased;
+          -webkit-text-stroke-width: 0.004rem;
+          -moz-osx-font-smoothing: grayscale;
+        }
+

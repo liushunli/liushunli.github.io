@@ -13,7 +13,7 @@
 .daoh_nav .mark{position: absolute;top:0px;left:0px;color:#fff;overflow: hidden;}
 .daoh_nav .mark ol{width:868px;position:absolute;top:-1px;left;-1px;color:#fff;}
 .daoh_nav .mark ol li{cursor:pointer;color:#fff;background:#8e273c url(../images/menu_hover.gif) no-repeat left top;z-index:9999;}
-.daoh_right{}
+.daoh_right{width:80px;color:#333;position: absolute;top:0;right: 0;line-height: 80px;}
 /***公用 s**/
 .home,.about,.news,.product,
 .sector,.like,.contact,.conat

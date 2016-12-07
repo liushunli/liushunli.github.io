@@ -187,7 +187,7 @@ function daoJs ()
 	    var oTime=document.getElementById('time');
 	    var aInp= oTime.getElementsByTagName('input');
 		var iNow = new Date();
-        var iNew = new Date( 'November 27,2016 12:30:00' );
+        var iNew = new Date( 'February 27,2017 12:30:00' );
         var t = Math.floor((iNew - iNow)/1000);
 		var str=toTwo(Math.floor(t/86400))+toTwo(Math.floor(t%86400/3600))
 		+toTwo(Math.floor(t%86400%3600/60))

@@ -170,7 +170,7 @@ input:-moz-placeholder{color:#ccc;font-size:14px;}
 .footer_top li .desc,.footer_top li .tit{display:block;line-height:22px}
 .footer_top li .tit{font-size:18px;font-weight:700}
 .footer_top li .desc{font-size:14px}
-.f_icon{background:url(http://mm.bst.126.net/images/index/icon1.png?3905ac082cd95a05bfcf7a60e2cc04fe) no-repeat;display:inline-block;width:36px;height:36px}
+.f_icon{background:url(../images/icon.png) no-repeat left top;display:inline-block;width:36px;height:36px}
 .f_icon23{width:44px;height:44px;background-position:-751px 0}
 .f_icon23_1{background-position:-812px 0}
 .f_icon23_2{background-position:-873px 0}

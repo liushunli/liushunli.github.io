@@ -22,7 +22,7 @@
 .small_pic img{height: 350px;width: 350px;}
 .big_pic { position: absolute; top: -1px; left: 360px; width:450px; height:450px; overflow:hidden; border:2px solid #CCC; display:none;z-index: 999; }
 .big_pic img { position:absolute; top: -30px; left: -80px; }
-.float_layer { width: 100px; height: 100px; border: 1px solid #000; background: #fff; filter: alpha(opacity: 30); opacity: 0.3; position: absolute; top: 0; left: 0; display:none; }
+.float_layer { width: 200px; height: 200px; border: 1px solid #000; background: black; filter: alpha(opacity: 30); opacity: 0.3; position: absolute; top: 0; left: 0; display:none; }
 .mark {width:100%; height:100%; position:absolute; z-index:2; left:0px; top:0px; background:red; filter:alpha(opacity:0); opacity:0;}
 
 .d1_left li {float: left;margin-right: 10px;}
@@ -100,10 +100,10 @@
 
 .d1_middle .d1m_c4 {height: 47px;margin: 30px 0 30px;}
 .d1_middle .d1m_c4 .c4_p{background:url(../images/det1/dt_s.jpg) no-repeat;height:15px;line-height:15px;font-family: "微软雅黑";font-size: 12px;color:#60ad1e;padding:0 0 5px 18px;}
-.d1_middle .d1m_c4 .c4_btn { display: block;float: left;height: 46px;width: 173px;line-height:46px;margin-right:10px;color: #fff;font-size:18px;text-align:center;font-weight:bold;bold;border:2px solid #D22147;  }
+.d1_middle .d1m_c4 .c4_btn { text-decoration: none;display: block;float: left;height: 46px;width: 173px;line-height:46px;margin-right:10px;color: #fff;font-size:18px;text-align:center;font-weight:bold;bold;border:2px solid #D22147;  }
 .d1_middle .d1m_c4 .c4_btn1 { /*background: url(../images/det1/dt_xc_icon.png) no-repeat 25px 15px #FFF;*//*padding-left: 52px;*/background:#D22147; }
 .d1_middle .d1m_c4 .c4_btn2 {/*background: url(../images/det1/dt_btn2.png) no-repeat left top;*/ background:#FFECED;border:2px solid #D41C44;color:#D31B44;width: 144px;}
-.d1_middle .d1m_c4 .c4_btn1:hover{ background:#ab358b;}
+.d1_middle .d1m_c4 .c4_btn1:hover{ background:#D22147;}
 .d1_middle .d1m_c4 .c4_btn2:hover{ background:#fff;}
 .d1_middle .d1m_c4 .c4_btn3 {display: block;background-color: #ccc;float: left;height: 47px;width: 170px;line-height: 47px;text-align: center;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;font-size: 18px;color: #FFF;margin-right: 20px;cursor: default;}
 .d1_middle .d1m_c4 .c4_btn4 {display: block;float: left;height: 47px;width: 170px;line-height: 47px;text-align: center;font-size: 18px;color: #FFF;background: url(../images/det1/dt_btn3.png) no-repeat left top #ccc;}

@@ -16,7 +16,7 @@ define(function(require,exports,moduel){
      require('./index.js').toShow();
      require('./index.js').toHide();
      require('./index.js').toMark();
-     require('./index.js').imgShow();
+     //require('./index.js').imgShow();
      require('./video.js').videoShow();//视频歌曲
      require('./canvas.js').autoCanvas();
      require('./wheel.js').dragDown(btn,oCon,aLiw);

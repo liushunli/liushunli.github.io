@@ -243,11 +243,11 @@ exports.posChange=posChange;
 	}
 
    exports.toHide=toHide;
-
+//作品展示
 	function imgShow()
 	{
 		var sectorNav=document.getElementById('sector_s3_nav');
-	    var aLi = sectorNav.getElementsByTagName('img');
+	    var aLi = sectorNav.getElementsByTagName('li');
 		var arr = [];
 		var zIndex = 1;
 		
@@ -268,10 +268,10 @@ exports.posChange=posChange;
 				this.style.zIndex = zIndex++;
 				
 				require('./move.js').startMove( this, {
-					width : 210,
-					height : 210,
-					left : arr[this.index].left - 25,
-					top : arr[this.index].top - 25
+					width : 120,
+					height : 120,
+					left : arr[this.index].left - 50,
+					top : arr[this.index].top - 50
 				});
 				
 			}
@@ -279,8 +279,8 @@ exports.posChange=posChange;
 			aLi[i].onmouseout = function() {
 				
 				require('./move.js').startMove( this, {
-					width : 170,
-					height : 170,
+					width : 100,
+					height : 100,
 					left : arr[this.index].left,
 					top : arr[this.index].top
 				});

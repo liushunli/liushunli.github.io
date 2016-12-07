@@ -430,6 +430,7 @@ exports.tab=tab;
 
      function bigImg(){
 		var oDic=document.getElementById('bigPic');
+		var small_dd=document.getElementById('small_dd');
 		var oMark=require('./move.js').getByClass(oDic,'mark')[0];
 		var oFloat=require('./move.js').getByClass(oDic,'float_layer')[0];
 		var oBig=require('./move.js').getByClass(oDic,'big_pic')[0];
@@ -455,7 +456,10 @@ exports.tab=tab;
 			
 			var l=oEvent.clientX-oDic.offsetLeft-oSmall.offsetLeft-oFloat.offsetWidth/2;
 			var t=oEvent.clientY-oDic.offsetTop-oSmall.offsetTop-oFloat.offsetHeight/2;
-			
+			console.log(oDic.offsetLeft);
+			console.log(oSmall.offsetLeft);
+			console.log(oFloat.offsetWidth/2);
+			console.log(l);
 			if(l<0)
 			{
 				l=0;

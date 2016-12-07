@@ -208,12 +208,12 @@ input:-moz-placeholder{color:#ccc;font-size:14px;}
 
 
 
-@font-face{font-family:'iconfont';src:url(http://mm.bst.126.net/css/fonts/iconfont.eot?ba4cbc537134cf2e9e25b87b062e7d31);src:url(http://mm.bst.126.net/css/fonts/iconfont.eot?#iefix) format('embedded-opentype'), 
-  url(http://mm.bst.126.net/css/fonts/iconfont.woff?7ce3848113b54e420473577e49728471) format('woff'), 
-  url(http://mm.bst.126.net/css/fonts/iconfont.ttf?342c9a165f0fbca7ffedc4fd6316319b) format('truetype'), 
-  url(http://mm.bst.126.net/css/fonts/iconfont.svg?c27d58c0efd7fcf019fdbbeb69fe0c59) format('svg');
+// @font-face{font-family:'iconfont';src:url(http://mm.bst.126.net/css/fonts/iconfont.eot?ba4cbc537134cf2e9e25b87b062e7d31);src:url(http://mm.bst.126.net/css/fonts/iconfont.eot?#iefix) format('embedded-opentype'), 
+//   url(http://mm.bst.126.net/css/fonts/iconfont.woff?7ce3848113b54e420473577e49728471) format('woff'), 
+//   url(http://mm.bst.126.net/css/fonts/iconfont.ttf?342c9a165f0fbca7ffedc4fd6316319b) format('truetype'), 
+//   url(http://mm.bst.126.net/css/fonts/iconfont.svg?c27d58c0efd7fcf019fdbbeb69fe0c59) format('svg');
 
-}
+// }
   
 .iconfont{  font-family: "iconfont" !important;font-size:16px;color:#999;}
 

@@ -146,8 +146,16 @@
 .sector_s3{width:580px;margin: 180px 0 0 35px;position: relative;z-index: 999;}
 .sector_s3_hd{}
 .sector_s3_nav{margin-top: 20px;position: relative;}
-.sector_s3_nav li{width:190px;height: 190px;text-align:center;overflow: hidden;}
-.sector_s3_nav li img{width:170px;height: 170px;vertical-align: middle;}
+.sector_s3_nav li{width:500px;height: 100px;font-size:12px;overflow: hidden;background: #ccc;margin-bottom: 20px;}
+
+.sector_s3_nav li a{display: block;width: 500px;height: 80px;color:#333;padding-top:10px;}
+.sector_s3_nav li a:hover{color: #8e273c;}
+.sector_s3_txt p{line-height: 20px;}
+.sector_s3_txt{width: 300px;height:100px;text-align: left;}
+.sector_s3_p1{}
+.sector_s3_img {display: block;width: 50px;height: 50px;padding:25px;}
+.sector_s3_img img{margin:0 auto;display: block;width:42px;height: 42px;text-decoration: none;transition: all .5 linear;}
+.sector_s3_img img:hover{width:50px;height: 50px;vertical-align: middle;margin-top:-5px;margin-left:-5px;}
 /*** s**/
 .like{background: url(../images/famous_bg.jpg) fixed no-repeat center top;}
 

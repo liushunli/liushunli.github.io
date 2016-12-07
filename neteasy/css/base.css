@@ -103,7 +103,7 @@ input:-moz-placeholder{color:#ccc;font-size:14px;}
 .header a{color:#666}
 .header_lf{line-height:30px}
 .header_rt{display:block}
-.header_rt li{position:relative;zoom:1;padding:0 2px;text-align:center;height:30px;line-height:30px}
+.header_rt li{position:relative;zoom:1;padding:0 2px;text-align:center;height:30px;line-height:30px;z-index:999;}
 .header_rt li .rt_a{padding:0 14px 0 8px}
 .header_rt li .sep{color:#dcd1cd}
 .header_rt li .rt_a2 em{position:absolute;top:13px;right:10px;width:0;height:0;transition:transform .2s linear 0s}

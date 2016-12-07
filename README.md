@@ -41,21 +41,25 @@ http://www.songnij.com <br />
 
 
 ### 代码片段高亮显示
-GitHub的markdown语法还支持部分语言的代码片段高亮显示。只需要在代码的上一行和下一行用\`\`\`标记。
-```function bindEvent(obj,ev,fn)
+
+``` ev
+function bindEvent(obj,ev,fn)
 {
 ```
-```if(obj.addEventListener)
+```ev
+if(obj.addEventListener)
 	{
 		obj.addEventListener(ev,fn,false);
 	}
 ```
-```else if(obj.attachEvent)
+```ev
+else if(obj.attachEvent)
 	{
 		obj.attachEvent('on'+ev,fn);
 	}
 ```
-```else
+```ev
+else
 	{
        obj['on'+type]=fn;
 	}

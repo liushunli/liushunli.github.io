@@ -11,9 +11,22 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script>
-		var deviceWidth = document.documentElement.clientWidth;
-if(deviceWidth > 640) deviceWidth = 750;
-document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';   
+	window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", fn, false); 
+        fn();
+        function fn()
+        {       var deviceWidth = document.documentElement.clientWidth;
+                if(window.orientation == 0 || window.orientation == 180)
+                {
+                 document.documentElement.style.fontSize = deviceWidth / 3.75 + 'px';
+                }
+                else if(window.orientation == 90 || window.orientation == -90)
+                {
+                        if(deviceWidth > 750) deviceWidth = 750;
+                   document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';   
+                }
+        }
+		
+
  
 	</script>
 </head>

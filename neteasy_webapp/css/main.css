@@ -1,3 +1,4 @@
+html{font-size: 50px;}
 body{width:7.5rem;height: auto;font-size: 0.32rem;background: #f6f6f6;}
 .nav_dh{position:fixed;top:0;width:7.5rem;height:0.8rem;z-index:999;overflow: hidden;height: 0.8rem;line-height:0.8rem;background: #ff3333;color:#fff;}
 .nav_dh .nav_dh_ul{width:15rem;overflow-x:scroll;overflow-y: hidden; }

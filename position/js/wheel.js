@@ -32,6 +32,7 @@ define(function(require,exports,moudel){
                 var J=T/iMaxTop;
                 
                oCon.style.top=-F*J+'px';
+
                for (var M = 0; M < oLi.length; M++) {
                         if ((oLi[M].offsetTop - (F * J)) > -80 && (oLi[M].offsetTop - (F * J)) < 20) {
                             var L = 80 - F * J + oLi[M].offsetTop - 50;
@@ -40,7 +41,8 @@ define(function(require,exports,moudel){
                             if (Q < 90) {
                                 Q = 90
                             }
-                            oLi[M].style.transform = "scale(" + Q / 100 + ")"
+                            oLi[M].style.transform = "scale(" + Q / 100 + ")";
+                            console.log(oLi[0].offsetTop);
                         }
                         if ((oLi[M].offsetTop - (F * J)) < 371 && (oLi[M].offsetTop - (F * J)) > 271) {
                             var O = 370 - oLi[M].offsetTop + F * J - 60;
@@ -60,7 +62,7 @@ define(function(require,exports,moudel){
                             oLi[M].style.transform = "scale(0)"
                         }
                     }
-                    console.log(oLi[1].offsetTop);
+                    
 
             }
             document.onmouseup=function()

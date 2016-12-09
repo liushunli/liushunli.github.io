@@ -25,5 +25,10 @@ define(function(require,exports,moduel){
      require('./move.js').bindEvent(window,'scroll',function(){
         require('./index.js').scrollClass();//顶部导航随着滚动条滚动加上红色背景
        });
-    
+    console.log(aLiw[0].offsetTop);
+    console.log(aLiw[1].offsetTop);
+    console.log(aLiw[2].offsetTop);
+    console.log(aLiw[3].offsetTop);
+    console.log(aLiw[4].offsetTop);
+
 });

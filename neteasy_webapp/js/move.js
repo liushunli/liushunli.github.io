@@ -264,6 +264,7 @@ function bindEvent(obj,ev,fn)
        obj['on'+type]=fn;
 	}
 }
+
 exports.bindEvent=bindEvent;
 
 function posTop(obj)

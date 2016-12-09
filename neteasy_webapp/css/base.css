@@ -19,7 +19,7 @@ sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
 sup{top:-0.5em;}sub{bottom:-0.25em;}
 img,input,select{vertical-align:middle;display:inline-block;}
 embed,object,a,button,input,select,textarea{outline:none;}
-html,body{_height:100%;min-height:100%;}
+html{_height:100%;min-height:100%;}
 body,button,input,select,textarea{font:"Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB",\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;}
 
 input,select,textarea{font-size:100%;}

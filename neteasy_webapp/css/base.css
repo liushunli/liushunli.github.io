@@ -119,3 +119,47 @@ input:-moz-placeholder{color:#ccc;font-size:14px;}
           -moz-osx-font-smoothing: grayscale;
         }
 
+.list-more {
+ 
+  bottom:0;
+  background: #eee;
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  height: 1.4rem;
+  
+  width: 7.5rem;
+  
+}
+.loading-wrap {
+  margin: .35rem auto;
+  display: table;
+  position: relative;
+}
+.loading {
+  width: .5rem;
+  height: .5rem;
+  float: left;
+  -webkit-animation: load2 1.5s infinite linear;
+  animation: load2 1.5s infinite linear;
+  -webkit-animation-name: load2;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
+}
+
+.loading .loading-icon {
+  font-size: .45rem;
+  display: inline-block;
+  vertical-align: middle;
+  width: .5rem;
+  height: .5rem;
+  color: #999;
+  background: url(../images/load.gif) no-repeat left center;
+
+}
+.loadtext {
+  line-height: .5rem;
+  margin-left: .2rem;
+  color: #888;
+  display: inline-block;
+  vertical-align: middle;
+}

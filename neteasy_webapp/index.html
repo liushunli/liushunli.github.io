@@ -145,7 +145,7 @@
    	 	<div class="list_top_img clearfix">
 	   	 	<ul>
 	   	 	   <li class="list_sml_img fl">
-	   	 	   <a href=""><img src="images/img1.jpg" alt=""></a>
+	   	 	   <a href=""><img src="images/load.gif" _src="images/img1.jpg" alt=""></a>
 	   	 	 
 	   	 	   </li>
 	   	 	    <li class="list_sml_img fl">
@@ -185,7 +185,14 @@
 	</section> -->
 </div>
 <!-- 新闻列表e -->
-
+<div class="list-more" id="list_more" style="display:none;">
+    <div class="loading-wrap">
+        <div class="loading">
+            <div class="loading-icon"></div>
+        </div>
+        <div class="loadtext">正在加载更多</div>
+    </div>
+</div>
 <!-- s返回顶部 -->
 <div class="return" id="return">
 	<a href="javascript:;">返回</a>
@@ -206,9 +213,9 @@
 		{  
 			if(src[i].b_src.length>1)
 			{
-                _top+='<li class="list_sml_img fl "><a href="javascript:;" ><img src="'+src[i].b_src[j].b_img+'" alt="'+src[i].b_title+'"></a></li>';
+                _top+='<li class="list_sml_img fl "><a href="javascript:;" ><img  _src="'+src[i].b_src[j].b_img+'"src="images/load.gif" alt="'+src[i].b_title+'"></a></li>';
 			}else{
-				_top+='<li class="list_big_img fl"><a href="javascript:;" ><img src="'+src[i].b_src[j].b_img+'" alt="'+src[i].b_title+'"></a></li>';
+				_top+='<li class="list_big_img fl"><a href="javascript:;" ><img _src="'+src[i].b_src[j].b_img+'"src="images/load.gif" alt="'+src[i].b_title+'"></a></li>';
 			}
 
 		}
@@ -217,7 +224,7 @@
 		for(var j=0;j<src[i].listModel.length;j++)
 		{
 			_list+='<section class="list_main clearfix"><a href="javascript:;">';
-			_list+='<div class="list_img fl"><img src="'+src[i].listModel[j].l_img+'" alt="'+src[i].listModel[j].l_title+'"></div>';
+			_list+='<div class="list_img fl"><img _src="'+src[i].listModel[j].l_img+'"src="images/load.gif" alt="'+src[i].listModel[j].l_title+'"></div>';
 			_list+='<div  class="list_rt fl">';
 			_list+='<p class="list_rt_p1">'+src[i].listModel[j].l_title+'</p>';
 			_list+='<p class="list_rt_p2 clearfix ell"><span class="rt_s1 fl">'+src[i].listModel[j].l_red+'</span><span class="rt_s2 fl ell">'+src[i].listModel[j].l_time+'</span><span class="rt_s3 fr ell"><i class="icon iconfont">&#xe6a2;</i>'+src[i].listModel[j].l_comt+'</span></p>';

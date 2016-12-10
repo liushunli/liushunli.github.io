@@ -116,4 +116,71 @@ exports.changeBanr=changeBanr;
 
 exports.toTop=toTop;
 
+
+//图片预加载
+function showImg()
+{  
+    var showImg=document.getElementsByTagName('img');
+    var arrImg=[];
+    for(var i=0;i<showImg.length;i++)
+    {
+        if(showImg[i].getAttribute('_src'))
+        {
+            arrImg.push(showImg[i]);
+        }
+    }
+    for(var i=0;i<arrImg.length;i++)
+    {
+        arrImg[i].att=true;
+    }
+
+    function toImg()
+    {
+        var iScroll=document.documentElement.scrollTop||document.body.scrollTop;
+        var iClient=document.documentElement.clientHeight;
+        for(var i=0;i<arrImg.length;i++)
+        {
+            if(require('./move.js').posTop(arrImg[i])<iClient+iScroll&&arrImg[i].att)
+            {
+                arrImg[i].src=arrImg[i].getAttribute('_src');
+                arrImg[i].style.opacity=0;
+                arrImg[i].style.filter='alpha(opacity:0)';
+                require('./move.js').startMove(arrImg[i],{opacity:100});
+                arrImg[i].att=false;
+            }
+        }
+    }
+    toImg();
+    require('./move.js').bindEvent(window,'scroll',function(){
+        toImg();
+    });
+
+}
+
+exports.showImg=showImg;
+
+
+function showLoad()
+{   
+    var oMain=document.getElementById('main');
+    var listMore=document.getElementById('list_more');
+     var iScroll=document.documentElement.scrollTop||document.body.scrollTop;
+     var listTop=require('./move.js').getByClass(oMain,'list_top');
+     console.log(listTop[0]);
+    var iClient=document.documentElement.clientHeight;
+    console.log(iClient);
+    console.log(iScroll);
+    require('./move.js').bindEvent(window,'scroll',function(){
+        if(require('./move.js').posTop(listTop[i])<iScroll+iClient)
+        {  
+            //alert('a');
+            listMore.style.display="block";
+            setTimeout(function(){
+                listMore.style.display='none';
+            },2000);
+        }
+    });
+    
+}
+exports.showLoad=showLoad;
 })

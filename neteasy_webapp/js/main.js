@@ -6,5 +6,6 @@ define(function(require,exports,moduel){
 	require('./index.js').changeBanr(oBanner);
     var oReturn=document.getElementById('return');
     require('./index.js').toTop(oReturn);
-
+    require('./index.js').showImg();
+    require('./index.js').showLoad();
 });

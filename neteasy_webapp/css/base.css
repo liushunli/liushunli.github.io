@@ -123,9 +123,7 @@ input:-moz-placeholder{color:#ccc;font-size:14px;}
  
   bottom:0;
   background: #eee;
-  border-bottom: 1px solid #e5e5e5;
-  border-top: 1px solid #e5e5e5;
-  height: 1.4rem;
+  height: 0.7rem;
   
   width: 7.5rem;
   position: fixed;
@@ -133,7 +131,9 @@ input:-moz-placeholder{color:#ccc;font-size:14px;}
   
 }
 .loading-wrap {
-  margin: .35rem auto;
+  height: 0.7rem;
+  line-height: 0.7rem;
+  margin: 0 auto;
   display: table;
   position: relative;
 }
@@ -149,6 +149,7 @@ input:-moz-placeholder{color:#ccc;font-size:14px;}
 }
 
 .loading .loading-icon {
+  text-align: center;
   font-size: .45rem;
   display: inline-block;
   vertical-align: middle;

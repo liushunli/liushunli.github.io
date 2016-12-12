@@ -33,9 +33,9 @@ body{width:7.5rem;height: auto;font-size: 0.32rem;background: #f6f6f6;}
 .list_top_p .top_s1{padding:0.02rem;margin-right:0.1rem;border:0.02rem solid #f8bebe;color:rgba(255,51,51,0.9);border-radius: 0.04rem;}
 .list_top_p .top_s2{width:2.5rem;padding-top:0.02rem;}
 .list_top_p .top_s3{width:1.0rem;text-align: right;}
-.list_main{padding:0.2rem;margin:0 0.3rem;border-bottom: 0.02rem solid #ccc;}
+.list_main{padding-bottom:0.2rem;margin:0 0.3rem;border-bottom: 0.02rem solid #ccc;}
 .list_nav{}
-.list_img{width:27%;height: 1.4rem;overflow: hidden; margin-right: 0.2rem;}
+.list_img{width:27%;height: 1.4rem;overflow: hidden; margin-right: 0.2rem;padding-top: 0.35rem;}
 .list_img img{width: 100%;height: 100%;}
 .list_rt{width:4.5rem;height: 1.4rem;box-sizing: border-box;}
 .list_rt_p1{width: 100%;font-size: 0.34rem;height: 0.84rem;line-height: 0.42rem;overflow: hidden;margin-bottom: 0.1rem;}

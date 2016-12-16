@@ -113,10 +113,11 @@
 		</div>
 	</nav>
 	<!-- 导航e -->
-  <div class="preloader">
-     <i class="icon-spin icon-spinner"></i>正在刷新
-  </div>
+  
 	<section class="swiper-container main-container">
+	  <div class="preloader">
+	     <i class="icon-spin icon-spinner"></i>正在刷新
+	  </div>
 	   <div class="swiper-wrapper">
 		<!-- 焦点图s -->
 	     <div class="swiper-container swiper-container2">
@@ -370,8 +371,6 @@
 				   	   </li>
 				   </ul>
 				</div>
-		</div>
-		<div class="list swiper-slide main-slide">
 				<div class="list_top">
 			   	 	<h4>北科大学子暑期实践走进乡村关注民生</h4>
 			   	 	<div class="list_top_img clearfix">
@@ -593,6 +592,7 @@
 				   </ul>
 				</div>
 		</div>
+		
 		</div>
     </section>
 
@@ -617,7 +617,7 @@
 
 //往下拉效果
   var holdPosition = 0;
-  var mySwiper = new Swiper('.main-container',{
+  var mySwiper2 = new Swiper('.main-container',{
    slidesPerView:'auto',
     mode:'vertical',
     watchActiveIndex: true,
@@ -630,10 +630,10 @@
     onTouchEnd: function(){
       if (holdPosition>60) {
         // Hold Swiper in required position
-        mySwiper.setWrapperTranslate(0,60,0)
+        mySwiper2.setWrapperTranslate(0,60,0)
 
         //Dissalow futher interactions
-        mySwiper.params.onlyExternal=true
+        mySwiper2.params.onlyExternal=true
 
         //Show loader
         $('.preloader').addClass('visible');
@@ -647,8 +647,8 @@
    
     setTimeout(function(){
       
-      mySwiper.setWrapperTranslate(0,0,0);
-      mySwiper.params.onlyExternal=false;
+      mySwiper2.setWrapperTranslate(0,0,0);
+      mySwiper2.params.onlyExternal=false;
       $('.preloader').removeClass('visible')
     },1000)
 

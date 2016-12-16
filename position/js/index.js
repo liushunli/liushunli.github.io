@@ -8,7 +8,7 @@ define(function(require,exports,moduel){
   	require('./move.js').bindEvent(window,'scroll',function(){
   	for(var i=0;i<sprTop.length;i++)
         {   
-        	if(i<sprTop.length-1)
+        	if(i<sprTop.length/2-1)
         	{
                bgPos(sprTop[i]);
         	}

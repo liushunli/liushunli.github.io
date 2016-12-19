@@ -202,4 +202,4 @@
 .return a{display:block;width:55px;height:55px;line-height: 55px;background:url(../images/return.gif) no-repeat left top;}
 .return a:hover{background-position: left -55px;}
 
-
+#allmap{width:100%;height: 100%;overflow: hidden;}

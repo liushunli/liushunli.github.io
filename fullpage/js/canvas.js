@@ -11,8 +11,8 @@
     var h = s.getContext("2d");
     var A = Math.PI / 180;
      var a = [{
-        angle: 0,
-        a: 40,
+        angle: 0,//角度
+        a: 40,//顶部x宽度
         b: 10,
         c: 100//底部点
     },

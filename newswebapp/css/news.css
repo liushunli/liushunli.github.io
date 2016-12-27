@@ -1,61 +1,62 @@
-body {
-  width: 6.04rem;
-  font-size: 0.14rem;
+.main {
+  width: 604px;
+  margin: 0 auto;
+  font-size: 14px;
   background: #eee;
   position: relative;
 }
 .head {
-  width: 6.04rem;
-  height: 0.7rem;
-  line-height: 0.7rem;
+  width: 604px;
+  height: 70px;
+  line-height: 70px;
   position: relative;
   background: #fff;
 }
 .head span {
   color: #ccc;
-  width: 0.28rem;
-  height: 0.35rem;
-  font-size: 0.3rem;
+  width: 28px;
+  height: 35px;
+  font-size: 30px;
 }
 .head_lf {
-  width: 0.7rem;
+  width: 70px;
   position: absolute;
   top: 0;
   left: 0;
 }
 .head_mid {
-  width: 3.87rem;
-  padding-left: 0.38rem;
+  width: 387px;
+  padding-left: 38px;
   position: absolute;
   top: 0;
-  left: 0.7rem;
+  left: 70px;
   text-align: center;
 }
 .head_mid img {
-  width: 1.96rem;
-  height: 0.46rem;
+  width: 196px;
+  height: 46px;
 }
 .head_rt {
-  width: 1.1rem;
+  width: 110px;
   right: 0;
   position: absolute;
   top: 0;
 }
 .nav {
-  width: 6.04rem;
-  height: 0.7rem;
-  line-height: 0.7rem;
+  width: 604px;
+  height: 70px;
+  line-height: 70px;
   position: relative;
 }
 .nav .nav_main {
-  width: 6.04rem;
+  width: 604px;
   overflow: hidden;
 }
 .nav .nav_main_n {
   overflow-x: scroll;
   overflow-y: hidden;
   background: #ff3333;
-  height: 0.7rem;
+  height: 70px;
   position: absolute;
   top: 0;
   left: 0;
@@ -63,68 +64,71 @@ body {
 .nav .nav_main_n a {
   color: #fff;
   display: inline-block;
-  font-size: 0.24rem;
+  font-size: 24px;
+}
+.nav .nav_main_n .cur {
+  color: black;
 }
 .nav .nav_list {
   position: absolute;
-  top: 0.7rem;
+  top: 70px;
   left: 0;
-  width: 6.04rem;
+  width: 604px;
   z-index: 666;
 }
 .nav .nav_list a {
-  padding: 0 0.05rem;
+  padding: 0 5px;
   color: #333;
-  font-size: 0.24rem;
+  font-size: 24px;
 }
 .swiper-container2 {
-  width: 6.04rem;
-  height: 3.08rem;
+  width: 604px;
+  height: 308px;
   color: #fff;
   text-align: center;
 }
 .swiper-slide2 img {
   width: 100%;
-  height: 3.8rem;
+  height: 380px;
 }
 .swiper-slide2 {
   position: relative;
 }
 .swiper-slide2 p {
   font-style: italic;
-  font-size: 0.25rem;
+  font-size: 25px;
   position: absolute;
-  left: 0.1rem;
+  left: 10px;
   bottom: 0;
 }
 .pagination {
   position: absolute;
   z-index: 20;
-  right: 0.1rem;
-  bottom: 0.1rem;
+  right: 10px;
+  bottom: 10px;
 }
 .swiper-pagination-switch {
   display: inline-block;
-  width: 0.08rem;
-  height: 0.08rem;
-  border-radius: 0.08rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
   background: #555;
-  margin-right: 0.05rem;
+  margin-right: 5px;
   opacity: 0.8;
-  border: 0.01rem solid #ffffff;
+  border: 1px solid #ffffff;
   cursor: pointer;
 }
 .swiper-active-switch {
   background: #fff;
 }
 .change {
-  height: 0.49rem;
-  line-height: 0.49rem;
+  height: 49px;
+  line-height: 49px;
   background: #87ceeb;
   color: #fff;
-  font-size: 0.2rem;
+  font-size: 20px;
   text-align: center;
-  margin-bottom: 0.18rem;
+  margin-bottom: 18px;
 }
 /***新闻列表 s **/
 .preloader {
@@ -138,7 +142,7 @@ body {
   height: 60px;
   width: 100%;
   opacity: 0;
-  font-size: 0.2rem;
+  font-size: 20px;
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
   -ms-transition: 300ms;
@@ -149,8 +153,12 @@ body {
   top: 0;
   opacity: 1;
 }
+.swiper_main {
+  width: 604px;
+  overflow: hidden;
+}
 .main-container {
-  width: 100%;
+  width: 604px;
   height: 100%;
   color: #fff;
   text-align: center;
@@ -170,13 +178,13 @@ body {
   opacity: 1;
 }
 .list {
-  width: 5.6rem;
-  padding: 0.18rem 0.2rem;
+  width: 560px;
+  padding: 18px 20px;
   background: #fff;
 }
 .list_top h4 {
-  padding: 0.18rem;
-  height: 0.28rem;
+  padding: 18px;
+  height: 28px;
 }
 .list_top_img {
   width: 100%;
@@ -190,11 +198,11 @@ body {
   overflow: hidden;
 }
 .list_sml_img a {
-  padding-right: 0.2rem;
+  padding-right: 20px;
 }
 .list_top_img .list_sml_img img {
-  width: 1.78rem;
-  height: 1.22rem;
+  width: 178px;
+  height: 122px;
 }
 .list_top_img .list_big_img {
   width: 100%;
@@ -204,75 +212,75 @@ body {
   width: 100%;
 }
 .list_top_p {
-  height: 0.68rem;
-  line-height: 0.68rem;
+  height: 68px;
+  line-height: 68px;
 }
 .list_top_p .top_s1 {
-  padding: 0.02rem;
-  margin-right: 0.1rem;
-  border: 0.01rem solid #f8bebe;
+  padding: 2px;
+  margin-right: 10px;
+  border: 1px solid #f8bebe;
   color: rgba(255, 51, 51, 0.9);
-  border-radius: 0.2rem;
+  border-radius: 20px;
 }
 .list_top_p .top_s2 {
-  width: 4rem;
+  width: 400px;
   text-align: left;
 }
 .list_top_p .top_s3 {
-  width: 1rem;
+  width: 100px;
   text-align: right;
 }
 .list_main {
-  padding: 0.15rem 0;
+  padding: 15px 0;
   box-sizing: border-box;
 }
 .list_main li {
-  height: 1.16rem;
-  font-size: 0.18rem;
-  border-bottom: 0.01rem solid #cccccc;
-  padding: 0.16rem 0 0.22rem 0;
+  height: 116px;
+  font-size: 18px;
+  border-bottom: 1px solid #cccccc;
+  padding: 16px 0 22px 0;
 }
 .list_img {
-  width: 1.51rem;
-  height: 1.16rem;
+  width: 151px;
+  height: 116px;
   overflow: hidden;
-  margin-right: 0.19rem;
+  margin-right: 19px;
 }
 .list_img img {
   width: 100%;
   height: 100%;
 }
 .list_rt {
-  width: 3.9rem;
+  width: 390px;
   box-sizing: border-box;
 }
 .list_rt_p1 {
   color: #404040;
   display: block;
   width: 100%;
-  font-size: 0.28rem;
-  height: 0.7rem;
-  line-height: 0.35rem;
+  font-size: 28px;
+  height: 70px;
+  line-height: 35px;
   overflow: hidden;
 }
 .list_rt_p2 {
   display: block;
-  height: 0.4rem;
-  font-size: 0.24rem;
+  height: 40px;
+  font-size: 24px;
   color: #888;
 }
 .list_rt_p2 .rt_s1 {
-  padding: 0.02rem;
-  margin-right: 0.15rem;
-  border: 0.01rem solid #f8bebe;
+  padding: 2px;
+  margin-right: 15px;
+  border: 1px solid #f8bebe;
   color: rgba(255, 51, 51, 0.9);
-  border-radius: 0.2rem;
+  border-radius: 20px;
 }
 .list_rt_p2 .rt_s2 {
-  width: 2.2rem;
-  padding-top: 0.1rem;
+  width: 220px;
+  padding-top: 10px;
 }
 .list_rt_p2 .rt_s3 {
-  width: 1rem;
+  width: 100px;
   text-align: right;
 }

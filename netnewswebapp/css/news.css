@@ -1,12 +1,14 @@
 .main {
-  width: 604px;
+  width: 640px;
   margin: 0 auto;
   font-size: 14px;
   background: #eee;
   position: relative;
+  overflow: hidden;
+  padding-bottom: 100px;
 }
 .head {
-  width: 604px;
+  width: 640px;
   height: 70px;
   line-height: 70px;
   position: relative;
@@ -43,13 +45,13 @@
   top: 0;
 }
 .nav {
-  width: 604px;
+  width: 640px;
   height: 70px;
   line-height: 70px;
   position: relative;
 }
 .nav .nav_main {
-  width: 604px;
+  width: 640px;
   overflow: hidden;
 }
 .nav .nav_main_n {
@@ -73,7 +75,7 @@
   position: absolute;
   top: 70px;
   left: 0;
-  width: 604px;
+  width: 640px;
   z-index: 666;
 }
 .nav .nav_list a {
@@ -82,7 +84,7 @@
   font-size: 24px;
 }
 .swiper-container2 {
-  width: 604px;
+  width: 640px;
   height: 308px;
   color: #fff;
   text-align: center;
@@ -154,7 +156,7 @@
   opacity: 1;
 }
 .swiper_main {
-  width: 604px;
+  width: 1208px;
   overflow: hidden;
 }
 .main-container {
@@ -178,7 +180,7 @@
   opacity: 1;
 }
 .list {
-  width: 560px;
+  width: 600px;
   padding: 18px 20px;
   background: #fff;
 }
@@ -283,4 +285,25 @@
 .list_rt_p2 .rt_s3 {
   width: 100px;
   text-align: right;
+}
+.nav_lt {
+  background: #f27f99;
+  font-size: 30px;
+}
+.title-slide {
+  color: #fff;
+}
+.banner-container {
+  height: 380px;
+}
+.foots {
+  width: 640px;
+  height: 100px;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  background: #f27f99;
+  border-top: 1px solid red;
+  position: fixed;
+  bottom: 0;
 }

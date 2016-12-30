@@ -286,12 +286,21 @@
   width: 100px;
   text-align: right;
 }
+.swiper-wrapper2 {
+  height: 70 1px;
+}
+.nav {
+  overflow: hidden;
+}
 .nav_lt {
+  height: 70 1px;
   background: #f27f99;
   font-size: 30px;
+  cursor: pointer;
 }
-.title-slide {
+.nav_lt .title-slide {
   color: #fff;
+  height: 70px;
 }
 .banner-container {
   height: 380px;
@@ -299,6 +308,7 @@
 .foots {
   width: 640px;
   height: 100px;
+  line-height: 100px;
   color: #fff;
   font-size: 50px;
   text-align: center;

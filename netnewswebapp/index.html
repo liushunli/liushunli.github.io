@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="css/news.css">
 	<link rel="stylesheet" href="css/idangerous.swiper.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="sprite/sprit.css">
 	
 	
 </head>
@@ -50,7 +51,7 @@
 				<a href="javascript:;">微博</a>	
 			</div> -->
 			  <div class="swiper-container nav_lt">
-			    <div class="swiper-wrapper ">
+			    <div class="swiper-wrapper swiper-wrapper2">
 			      <li class="swiper-slide title-slide">
 			        <a class="title">新闻</a>
 			      </li>
@@ -171,15 +172,17 @@
 			   	 	<div class="list_top_img clearfix">
 				   	 	<ul>
 				   	 	   <li class="list_sml_img fl">
-				   	 	   <a href=""><img data-original="images/img1.jpg" src="images/load.gif" class="lazy_img" alt=""></a>
+				   	 	   <a href="">
+				   	 	   <span class="icon-menu icon-menu_img1"></span>
+				   	 	   </a>
 				   	 	 
 				   	 	   </li>
 				   	 	    <li class="list_sml_img fl">
-				   	 	   <a href=""><img data-original="images/img1.jpg" src="images/load.gif" class="lazy_img" alt=""></a>
+				   	 	   <a href=""><span class="icon-menu icon-menu_img2"></span></a>
 				   	 
 				   	 	   </li>
 				   	 	   <li class="list_sml_img fl">
-				   	 	   <a href=""><img data-original="images/img1.jpg" src="images/load.gif" class="lazy_img" alt=""></a>
+				   	 	   <a href=""><span class="icon-menu icon-menu_img3"></span></a>
 				   	 
 				   	 	   </li>
 				   	 	</ul>
@@ -604,6 +607,7 @@
 				   	   	  	 </div>
 				   	   	  </a>
 				   	   </li>
+				   	   
 				   </ul>
 				</div>
 		</div>
@@ -626,6 +630,8 @@
   })
 
 var mySwiper = new Swiper('.nav_lt',{
+	freeMode: true,
+	freeModeFluid: true,
     slidesPerView: 10
   })
   $(function() {  

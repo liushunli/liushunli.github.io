@@ -1,0 +1,42 @@
+html{_text-overflow:ellipsis; height:100%; font-family: "微软雅黑";}
+html {filter:expression(document.execCommand("BackgroundImageCache",false,true));}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+input,textarea,a{outline: none;outline:none;blr:expression_r(this.onFocus=this.blur());}
+table,table tr td{ border-collapse:collapse; border-spacing:0;}
+input, select, label {vertical-align: middle;outline:none;blr:expression_r(this.onFocus=this.blur());}
+fieldset,img{border:0;}
+img{vertical-align:middle;}
+address,caption,cite,code,dfn,em,strong,th,var,i{font-style:normal;font-weight:normal;}
+form {margin:0px;padding:0px;}
+ul,li{list-style:none;}
+caption{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+a{outline:none;blr:expression_r(this.onFocus=this.blur()); text-decoration:none;}
+a,img,button,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);}
+body{background:#f0efed;}
+
+input[type="submit"],input[type="reset"],input[type="button"]{-webkit-appearance:none; }
+.fr{ float:right;}
+.fl{ float:left;}
+.clearfix:after {clear: both;content: "";display: block;font-size: 0;height: 0;visibility: hidden;}
+* html .clearfix{ zoom:1;}
+*+ html .clearfix{ min-height:1px;}
+html,body{height: 100%;}
+.none{display: none;}
+.show{display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo</title>
+  
+  <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="keywords" content="网易,163,网易新闻,网易无线,网易邮箱,网易官网,网易wap" />
+    <meta name="description" content="网易是中国领先的互联网技术公司，为用户提供免费邮箱、游戏、搜索引擎服务，开设新闻、娱乐、体育、财经、科技等30多个内容频道，及博客、视频、论坛等互动交流，网聚人的力量。" />
+    <meta name="google-site-verification" content="vDJDt0eLizo98mTqFjhG4ONEm8DlFI7bdonVyRDi-EY" />
+     <meta name="x5-orientation" content="portrait" />
+  <meta name="x5-fullscreen" content="true" />
+  <meta name="screen-orientation" content="portrait">
+  <meta name="full-screen" content="yes">
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <link rel="stylesheet" href="css/idangerous.swiper.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" href="sprite/sprit.css">
+  <!-- <script>
+    (function(){
+          var html = document.documentElement;
+          var hWidth = html.getBoundingClientRect().width;
+        html.style.fontSize = hWidth/7.5 + "px";
+        })()
+
+
+  </script> -->
+ <script>
+   !(function(win, doc){
+    function setFontSize() {
+        var html = document.documentElement;
+          var hWidth = html.getBoundingClientRect().width;
+        html.style.fontSize = hWidth/7.5 + "px";
+    }
+ 
+    var evt = 'onorientationchange' in win ? 'orientationchange' : 'resize';
+    
+    var timer = null;
+ 
+    win.addEventListener(evt, function () {
+        clearTimeout(timer);
+ 
+        timer = setTimeout(setFontSize, 300);
+    }, false);
+    // 初始化
+    setFontSize();
+ 
+}(window, document));
+ </script>
+  <style>
+/* Demo Styles */
+
+
+
+.red-slide {
+  background: #ca4040;
+  height: 300px;
+}
+.blue-slide {
+  background: #4390ee;
+  height: 300px;
+}
+.orange-slide {
+  background: #ff8604;
+  height: 300px;
+}
+.green-slide {
+  background: #49a430;
+}
+.pink-slide {
+  background: #973e76;
+}
+
+.swiper-slide-visible {
+  opacity: 1;
+}
+
+
+  </style>
+
+</head>
+<body>
+<div class="main">
+  <!-- 头部s -->
+  <header class="head">
+    <div class="head_lf">
+      <span class="glyphicon glyphicon glyphicon-user" ></span>
+    </div>
+    <div class="head_mid">
+      <img data-original="images/wy1.jpg" src="images/load.gif" class="lazy_img" alt="">
+    </div>
+    <div class="head_rt">
+      <span class="glyphicon glyphicon-download-alt"></span>
+      <span class="glyphicon glyphicon-envelope"></span>
+    </div>
+  </header>
+  <!-- 头部e -->
+  <!-- 导航s -->
+  <div class="nav">
+    <div class="nav_container">
+    <ul class="swiper-wrapper nav_wrapper">
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide ">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide ">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide ">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      <li class="swiper-slide">
+        <a href="">新闻</a>
+      </li>
+      
+    </ul>
+   </div>
+   <div class="nav_icon">
+      <span class="glyphicon glyphicon-envelope"></span>
+    </div>
+  </div>
+  <!-- 导航e -->
+  <div class="preloader">
+    Loading...
+  </div>
+  <!-- 下拉刷新s -->
+  <div class="swiper-container load-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide2">
+       <!-- 焦点图s -->
+         <div class="banner-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide banner-slide">
+              <img src="images/banner1.jpg" alt="">
+            </div>
+            <div class="swiper-slide banner-slide">
+              <img src="images/banner1.jpg" alt="">
+            </div>
+            <div class="swiper-slide banner-slide">
+              <img src="images/banner1.jpg" alt="">
+            </div>
+            <div class="swiper-slide banner-slide">
+              <img src="images/banner1.jpg" alt="">
+            </div>
+            <div class="swiper-slide banner-slide">
+              <img src="images/banner1.jpg" alt="">
+            </div>
+            
+          </div>
+          <div class="pagination"></div>
+        </div>
+       <!-- 焦点图e -->
+      </div>
+      <!-- 新闻列表s -->
+      <div class="swiper-slide2 "> 
+        <div class="list">
+          <div class="list_top">
+              <h4>北科大学子暑期实践走进乡村关注民生</h4>
+              <div class="list_top_img clearfix">
+                <ul>
+                   <li class="list_sml_img fl">
+                   <a href="">
+                   <span class="icon-menu icon-menu_img1"></span>
+                   </a>
+                 
+                   </li>
+                    <li class="list_sml_img fl">
+                   <a href=""><span class="icon-menu icon-menu_img2"></span></a>
+               
+                   </li>
+                   <li class="list_sml_img fl">
+                   <a href=""><span class="icon-menu icon-menu_img3"></span></a>
+               
+                   </li>
+                </ul>
+              </div>
+              <p class="list_top_p clearfix ell">
+                  <span class="top_s1 fl">推荐</span>
+                  <span class="top_s2 fl ell">10小时前</span>
+                  <span class="top_s3 fr ell">
+                  <span class="glyphicon glyphicon-edit"></span>
+                  831</span>
+              </p>
+          </div>
+          <div class="list_main clearfix">
+             <ul>
+                 <li>
+                    <a href="javascript:;" class="clearfix">
+                       <div class="list_img fl">
+                        <img data-original="images/img1.jpg" src="images/load.gif" class="lazy_img" alt="">
+                       </div>
+                       <div class="list_rt fl">
+                        <span class="list_rt_p1">
+                          香港特区财政香港特区财政香港特区财政香港特区财政
+                        </span>
+                        <span class="list_rt_p2 clearfix ell">
+                    <span class="rt_s1 fl">推荐</span>
+                    <span class="rt_s2 fl ell">10小时前</span>
+                    <span class="rt_s3 fr ell">
+                      <span class="glyphicon glyphicon-edit"></span>
+                    831</span>
+                        </span>
+                       </div>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="javascript:;" class="clearfix">
+                       <div class="list_img fl">
+                        <img data-original="images/img1.jpg" src="images/load.gif" class="lazy_img" alt="">
+                       </div>
+                       <div class="list_rt fl">
+                        <span class="list_rt_p1">
+                          香港特区财政香港特区财政香港特区财政香港特区财政
+                        </span>
+                        <span class="list_rt_p2 clearfix ell">
+                    <span class="rt_s1 fl">推荐</span>
+                    <span class="rt_s2 fl ell">10小时前</span>
+                    <span class="rt_s3 fr ell">
+                      <span class="glyphicon glyphicon-edit"></span>
+                    831</span>
+                        </span>
+                       </div>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="javascript:;" class="clearfix">
+                       <div class="list_img fl">
+                        <img data-original="images/img1.jpg" src="images/load.gif" class="lazy_img" alt="">
+                       </div>
+                       <div class="list_rt fl">
+                        <span class="list_rt_p1">
+                          香港特区财政香港特区财政香港特区财政香港特区财政
+                        </span>
+                        <span class="list_rt_p2 clearfix ell">
+                    <span class="rt_s1 fl">推荐</span>
+                    <span class="rt_s2 fl ell">10小时前</span>
+                    <span class="rt_s3 fr ell">
+                      <span class="glyphicon glyphicon-edit"></span>
+                    831</span>
+                        </span>
+                       </div>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="javascript:;" class="clearfix">
+                       <div class="list_img fl">
+                        <img data-original="images/img1.jpg" src="images/load.gif" class="lazy_img" alt="">
+                       </div>
+                       <div class="list_rt fl">
+                        <span class="list_rt_p1">
+                          香港特区财政香港特区财政香港特区财政香港特区财政
+                        </span>
+                        <span class="list_rt_p2 clearfix ell">
+                    <span class="rt_s1 fl">推荐</span>
+                    <span class="rt_s2 fl ell">10小时前</span>
+                    <span class="rt_s3 fr ell">
+                      <span class="glyphicon glyphicon-edit"></span>
+                    831</span>
+                        </span>
+                       </div>
+                    </a>
+                 </li>
+                 
+             </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 新闻列表e -->
+      <!-- 新闻列表s -->
+      <div class="swiper-slide2 "> 
+        <div class="list">
+          <div class="list_top">
+              <h4>北科大学子暑期实践走进乡村关注民生</h4>
+              <div class="list_top_img clearfix">
+                <ul>
+                   <li class="list_sml_img fl">
+                   <a href="">
+                   <span class="icon-menu icon-menu_img1"></span>
+                   </a>
+                 
+                   </li>
+                    <li class="list_sml_img fl">
+                   <a href=""><span class="icon-menu icon-menu_img2"></span></a>
+               
+                   </li>
+                   <li class="list_sml_img fl">
+                   <a href=""><span class="icon-menu icon-menu_img3"></span></a>
+               
+                   </li>
+                   <li class="list_sml_img fl">
+                   <a href="">
+                   <span class="icon-menu icon-menu_img1"></span>
+                   </a>
+                 
+                   </li>
+                    <li class="list_sml_img fl">
+                   <a href=""><span class="icon-menu icon-menu_img2"></span></a>
+               
+                   </li>
+                   <li class="list_sml_img fl">
+                   <a href=""><span class="icon-menu icon-menu_img3"></span></a>
+               
+                   </li>
+                </ul>
+              </div>
+              <p class="list_top_p clearfix ell">
+                  <span class="top_s1 fl">推荐</span>
+                  <span class="top_s2 fl ell">10小时前</span>
+                  <span class="top_s3 fr ell">
+                  <span class="glyphicon glyphicon-edit"></span>
+                  831</span>
+              </p>
+          </div>
+          <div class="list_main clearfix">
+             <ul>
+                 <li>
+                    <a href="javascript:;" class="clearfix">
+                       <div class="list_img fl">
+                        <img data-original="images/img1.jpg" src="images/load.gif" class="lazy_img" alt="">
+                       </div>
+                       <div class="list_rt fl">
+                        <span class="list_rt_p1">
+                          香港特区财政香港特区财政香港特区财政香港特区财政
+                        </span>
+                        <span class="list_rt_p2 clearfix ell">
+                    <span class="rt_s1 fl">推荐</span>
+                    <span class="rt_s2 fl ell">10小时前</span>
+                    <span class="rt_s3 fr ell">
+                      <span class="glyphicon glyphicon-edit"></span>
+                    831</span>
+                        </span>
+                       </div>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="javascript:;" class="clearfix">
+                       <div class="list_img fl">
+                        <img data-original="images/img1.jpg" src="images/load.gif" class="lazy_img" alt="">
+                       </div>
+                       <div class="list_rt fl">
+                        <span class="list_rt_p1">
+                          香港特区财政香港特区财政香港特区财政香港特区财政
+                        </span>
+                        <span class="list_rt_p2 clearfix ell">
+                    <span class="rt_s1 fl">推荐</span>
+                    <span class="rt_s2 fl ell">10小时前</span>
+                    <span class="rt_s3 fr ell">
+                      <span class="glyphicon glyphicon-edit"></span>
+                    831</span>
+                        </span>
+                       </div>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="javascript:;" class="clearfix">
+                       <div class="list_img fl">
+                        <img data-original="images/img1.jpg" src="images/load.gif" class="lazy_img" alt="">
+                       </div>
+                       <div class="list_rt fl">
+                        <span class="list_rt_p1">
+                          香港特区财政香港特区财政香港特区财政香港特区财政
+                        </span>
+                        <span class="list_rt_p2 clearfix ell">
+                    <span class="rt_s1 fl">推荐</span>
+                    <span class="rt_s2 fl ell">10小时前</span>
+                    <span class="rt_s3 fr ell">
+                      <span class="glyphicon glyphicon-edit"></span>
+                    831</span>
+                        </span>
+                       </div>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="javascript:;" class="clearfix">
+                       <div class="list_img fl">
+                        <img data-original="images/img1.jpg" src="images/load.gif" class="lazy_img" alt="">
+                       </div>
+                       <div class="list_rt fl">
+                        <span class="list_rt_p1">
+                          香港特区财政香港特区财政香港特区财政香港特区财政
+                        </span>
+                        <span class="list_rt_p2 clearfix ell">
+                    <span class="rt_s1 fl">推荐</span>
+                    <span class="rt_s2 fl ell">10小时前</span>
+                    <span class="rt_s3 fr ell">
+                      <span class="glyphicon glyphicon-edit"></span>
+                    831</span>
+                        </span>
+                       </div>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="javascript:;" class="clearfix">
+                       <div class="list_img fl">
+                        <img data-original="images/img1.jpg" src="images/load.gif" class="lazy_img" alt="">
+                       </div>
+                       <div class="list_rt fl">
+                        <span class="list_rt_p1">
+                          香港特区财政香港特区财政香港特区财政香港特区财政
+                        </span>
+                        <span class="list_rt_p2 clearfix ell">
+                    <span class="rt_s1 fl">推荐</span>
+                    <span class="rt_s2 fl ell">10小时前</span>
+                    <span class="rt_s3 fr ell">
+                      <span class="glyphicon glyphicon-edit"></span>
+                    831</span>
+                        </span>
+                       </div>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="javascript:;" class="clearfix">
+                       <div class="list_img fl">
+                        <img data-original="images/img1.jpg" src="images/load.gif" class="lazy_img" alt="">
+                       </div>
+                       <div class="list_rt fl">
+                        <span class="list_rt_p1">
+                          香港特区财政香港特区财政香港特区财政香港特区财政
+                        </span>
+                        <span class="list_rt_p2 clearfix ell">
+                    <span class="rt_s1 fl">推荐</span>
+                    <span class="rt_s2 fl ell">10小时前</span>
+                    <span class="rt_s3 fr ell">
+                      <span class="glyphicon glyphicon-edit"></span>
+                    831</span>
+                        </span>
+                       </div>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="javascript:;" class="clearfix">
+                       <div class="list_img fl">
+                        <img data-original="images/img1.jpg" src="images/load.gif" class="lazy_img" alt="">
+                       </div>
+                       <div class="list_rt fl">
+                        <span class="list_rt_p1">
+                          香港特区财政香港特区财政香港特区财政香港特区财政
+                        </span>
+                        <span class="list_rt_p2 clearfix ell">
+                    <span class="rt_s1 fl">推荐</span>
+                    <span class="rt_s2 fl ell">10小时前</span>
+                    <span class="rt_s3 fr ell">
+                      <span class="glyphicon glyphicon-edit"></span>
+                    831</span>
+                        </span>
+                       </div>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="javascript:;" class="clearfix">
+                       <div class="list_img fl">
+                        <img data-original="images/img1.jpg" src="images/load.gif" class="lazy_img" alt="">
+                       </div>
+                       <div class="list_rt fl">
+                        <span class="list_rt_p1">
+                          香港特区财政香港特区财政香港特区财政香港特区财政
+                        </span>
+                        <span class="list_rt_p2 clearfix ell">
+                    <span class="rt_s1 fl">推荐</span>
+                    <span class="rt_s2 fl ell">10小时前</span>
+                    <span class="rt_s3 fr ell">
+                      <span class="glyphicon glyphicon-edit"></span>
+                    831</span>
+                        </span>
+                       </div>
+                    </a>
+                 </li>
+                 
+             </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 新闻列表e -->
+
+    </div>
+
+  </div>
+  <!-- 下拉刷新e -->
+  <footer class="foots">
+    底部导航
+  </footer>
+</div>
+  <script src="js/jquery-1.10.1.min.js"></script>
+  <script src="js/jquery.lazyload.js" ></script> 
+  <script src="js/idangerous.swiper.min.js"></script>
+  <script>
+  //图片懒加载
+  $(function() {  
+    $("img.lazy_img").lazyload({
+      effect : "fadeIn",
+      threshold : 500,
+    });
+  });
+  //导航
+  var mySwiper = new Swiper('.nav_container',{
+    freeMode: true,
+    freeModeFluid: true,
+  calculateHeight:true,
+    slidesPerView: 'auto'
+  });
+
+  
+//下拉刷新
+  var holdPosition = 0;
+  var mySwiper = new Swiper('.load-container',{
+    slidesPerView:'auto',
+    mode:'vertical',
+    slideClass:"swiper-slide2",
+    calculateHeight:true,
+    watchActiveIndex: true,
+    onTouchStart: function() {
+      holdPosition = 0;
+    },
+    onResistanceBefore: function(s, pos){
+      holdPosition = pos;
+    },
+    onTouchEnd: function(){
+      if (holdPosition>60) {
+        // Hold Swiper in required position
+        mySwiper.setWrapperTranslate(0,60,0)
+
+        //Dissalow futher interactions
+        mySwiper.params.onlyExternal=true
+
+        //Show loader
+        $('.preloader').addClass('visible');
+
+        //Load slides
+       loadNewSlides();
+      }
+    }
+  })
+  function loadNewSlides() {
+   
+    setTimeout(function(){
+      
+      mySwiper.setWrapperTranslate(0,0,0)
+      mySwiper.params.onlyExternal=false;
+      $('.preloader').removeClass('visible')
+    },1000)
+
+  }
+ //焦点图轮播
+  var mySwiper2 = new Swiper('.banner-container',{
+    pagination: '.pagination',
+    paginationClickable: true,
+    freeMode: true,
+    freeModeFluid: true,
+    calculateHeight:true,
+    slideClass:"banner-slide"
+  })
+ 
+  
+  </script>
+</body>
+</html>

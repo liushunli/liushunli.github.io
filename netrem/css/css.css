@@ -7,6 +7,7 @@ body {
   line-height: 1.5;
   position: relative;
   height: 100%;
+  
 }
 .preloader {
   position: absolute;
@@ -56,7 +57,7 @@ body {
   font-size: 0.14rem;
   background: #eee;
   position: relative;
-  overflow: hidden;
+  padding-bottom: 1.1rem;
 }
 .head {
   width: 100%;

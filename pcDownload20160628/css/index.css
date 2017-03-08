@@ -1178,9 +1178,9 @@ input:-webkit-autofill:focus {
 .ct-6 .container{
       margin-top: -200px;
 }
-.ct-6 .container p{line-height:35px;text-align: right;font-size: 24px;color:#666;font-family: FuturaStdMedium;}
-.ct-6 .container p img{vertical-align: middle;}
-.ct-6 .container p .items-em2{color:#333;font-size: 30px;}
+.ct-6 .container .items-3{line-height:35px;text-align: right;font-size: 24px;color:#666;font-family: FuturaStdMedium;}
+.ct-6 .container .items-3 img{vertical-align: middle;}
+.ct-6 .container .items-3 .items-em2{color:#333;font-size: 30px;}
 .ct-6 .point-prev{bottom:-180px;}
 .ct-6 .intro-text {
   text-align: center;

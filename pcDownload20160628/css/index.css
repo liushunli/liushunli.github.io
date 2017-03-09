@@ -1115,21 +1115,24 @@ input:-webkit-autofill:focus {
 .ct-5 {
   background: url("../images/tracking-bg.jpg") center center no-repeat;
 }
+
 .ct-5 .ct5-left {
   width:420px;
   text-align: right; 
   position: absolute;
-  left: 0px;
+  left: 50%;
+  margin-left:-450px;
   top: 214px;
   opacity: 0;
 }
 .ct-5 .ct5-right {
   background: url("../images/tracking01.png") no-repeat;
-  width: 852px;
-  height: 705px;
+  width: 1021px;
+  height: 845px;
   position: absolute;
-  right: 0px;
-  bottom: 0px;
+  left: 50%;
+  margin-left:0px;
+  bottom: -80px;
   opacity: 0;
   z-index: 1;
 }

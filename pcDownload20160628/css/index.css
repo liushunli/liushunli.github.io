@@ -712,22 +712,22 @@ input:-webkit-autofill:focus {
 .ct-1 .device01 {
   left: 0px;
   bottom:-52px;
-  width: 730px;
-  height: 480px;
+  width: 732px;
+  height: 481px;
   background: url("../images/device01.png") no-repeat;
 }
 .ct-1 .device02 {
   left: 357px;
-  bottom: -73px;
-  width: 244px;
-  height: 458px;
+  bottom: -70px;
+  width: 224px;
+  height: 423px;
   background: url("../images/device02.png") no-repeat;
 }
 .ct-1 .device03 {
   left: 473px;
-  bottom: -73px;
-  width: 234px;
-  height: 431px;
+  bottom: -77px;
+  width: 246px;
+  height: 455px;
   background: url("../images/device03.png") no-repeat;
 }
 .ct-1.active .device {
@@ -800,19 +800,21 @@ input:-webkit-autofill:focus {
 .ct-3 {
   background: url("../images/bonus-bg.jpg") center center no-repeat;
 }
-.ct-3 .ct3-left-cont {
+
+.ct-3 .ct3-right-cont {
   position: absolute;
-  left: 0px;
-  top: 230px;
+  right: 0px;
+  top: -100px;
   opacity: 0;
+  text-align: right;
 }
 .ct-3 .bonus-item {
   background: url("../images/device05.png") no-repeat;
   width: 320px;
   height: 525px;
   position: absolute;
-  left: 500px;
-  top: 120px;
+  left: 340px;
+    top: 160px;
   opacity: 0;
   z-index: 5;
 }
@@ -820,16 +822,16 @@ input:-webkit-autofill:focus {
   background: url("../images/device06.png") no-repeat;
   width: 330px;
   height: 570px;
-  left: 610px;
-  top: 38px;
+  left: 179px;
+    top: 89px;
   z-index: 4;
 }
 .ct-3 .bonus-item3 {
   background: url("../images/device07.png") no-repeat;
   width: 316px;
   height: 536px;
-  left: 740px;
-  top: -10px;
+  left: 40px;
+  top: 13px;
   z-index: 3;
 }
 .ct-3 .ct3-left .items-1 {
@@ -938,7 +940,7 @@ input:-webkit-autofill:focus {
   z-index: 4;
   display: none\9;
 }
-.ct-3.active .ct3-left-cont {
+.ct-3.active .ct3-right-cont {
   animation-name: slideInLeft;
   -webkit-animation-name: slideInLeft;
   opacity: 1;
@@ -1055,11 +1057,11 @@ input:-webkit-autofill:focus {
 }
 .ct-4 .ct4-left .items-2 {
   background: url("../images/device09.png") no-repeat;
-  width: 375px;
-  height: 332px;
+  width: 475px;
+    height: 337px;
   position: absolute;
-  left: 300px;
-  top: 350px;
+  left: 210px;
+    top: 290px;
   opacity: 0;
   z-index: 3;
 }
@@ -1069,14 +1071,14 @@ input:-webkit-autofill:focus {
   height: 56px;
   position: absolute;
   left: 150px;
-  top: 160px;
+  top: 200px;
   opacity: 0;
   z-index: 4;
 }
 .ct-4 .ct4-right {
   position: absolute;
   right: 0px;
-  top: 135px;
+  top: 0px;
   opacity: 0;
   text-align: right;
 }
@@ -1114,19 +1116,22 @@ input:-webkit-autofill:focus {
   background: url("../images/tracking-bg.jpg") center center no-repeat;
 }
 .ct-5 .ct5-left {
+  width:420px;
+  text-align: right; 
   position: absolute;
-  left: 50px;
+  left: 0px;
   top: 214px;
   opacity: 0;
 }
 .ct-5 .ct5-right {
   background: url("../images/tracking01.png") no-repeat;
-  width: 560px;
-  height: 670px;
+  width: 852px;
+  height: 705px;
   position: absolute;
-  right: 55px;
-  top: 60px;
+  right: 0px;
+  bottom: 0px;
   opacity: 0;
+  z-index: 1;
 }
 .ct-5 .ct5-right i {
   background: url("../images/tracking02.png");
@@ -1178,7 +1183,8 @@ input:-webkit-autofill:focus {
 .ct-6 .container{
       margin-top: -200px;
 }
-.ct-6 .container .items-3{line-height:35px;text-align: right;font-size: 24px;color:#666;font-family: FuturaStdMedium;}
+.ct-6 .container .items-3{position: absolute;z-index:3;right:0;}
+.ct-6 .container .items-3 p{line-height:35px;text-align: right;font-size: 24px;color:#666;font-family: FuturaStdMedium;}
 .ct-6 .container .items-3 img{vertical-align: middle;}
 .ct-6 .container .items-3 .items-em2{color:#333;font-size: 30px;}
 .ct-6 .point-prev{bottom:-180px;}
